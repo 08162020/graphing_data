@@ -19,7 +19,7 @@ plt.style.use('dark_background')
 fig, ax = plt.subplots()
 
 # Plot line segments with pink to purple ombre
-colors = ['#ff69b4', '#ff33cc', '#cc33ff', '#9933ff', '#8000ff']  # Gradient: pink to purple
+colors = ['#ff69b4', '#ff33cc', '#cc33ff', '#9933ff', '#8000ff']  # pink to purple
 for i in range(1, len(x_vals)):
     ax.plot(x_vals[i-1:i+1], y_vals[i-1:i+1], linewidth=3, color=colors[i])
 

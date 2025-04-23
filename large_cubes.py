@@ -16,8 +16,8 @@ from matplotlib.colors import LinearSegmentedColormap
 x_vals = list(range(1, 5001))
 y_vals = generate_cubes(5000)
 
-# Define custom pink-to-purple colormap
-colors = ["#ff69b4", "#cc33ff", "#8000ff"]  # pink → magenta → purple
+# Define custom pink to purple colormap
+colors = ["#ff69b4", "#cc33ff", "#8000ff"]  # pink to purple
 pink_purple_cmap = LinearSegmentedColormap.from_list("PinkPurple", colors)
 
 # Use dark background style
